@@ -1,0 +1,28 @@
+I - Initialisation projet
+	1- Répo github ==> OK
+	2- Déploiement BE sur Heroku ===> En Attente CODE ALAIN
+ 	3- Documentations (Express, Splash screen) ===> En cours
+
+II - Conception
+	1- MongoDB (Collections)
+	2- Liste des écrans (Mobile)
+
+III - Développement
+	1- Tâches FE : 
+	- Login
+	- Liste des contenus 
+	- Détails contenus
+	- Paramètres
+	- Recherche contenu
+	- Notification : (Firebase ou notification en local)
+
+	2- Tâches BE :
+	- Login WS
+	- Liste des contenus WS
+	- Détails contenus WS
+	- Recherche contenu WS
+	- Notification : WS ??
+
+IV - Specs 
+	1- Spécifications techniques
+	2- Redaction API ?
