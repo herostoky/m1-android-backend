@@ -1,6 +1,6 @@
 I - Initialisation projet
 	1- Répo github ==> OK
-	2- Déploiement BE sur Heroku ===> En Attente CODE ALAIN
+	2- Déploiement BE sur Heroku ===> En Attente CODE ALAIN ==> OK ==> à déployer ce jour 10-05-2022
  	3- Documentations (Express, Splash screen) ===> En cours
 
 II - Conception
