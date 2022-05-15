@@ -1,9 +1,9 @@
 const ServiceExtension = require('./serviceExtension');
-class UserService extends ServiceExtension {
-    findAllUsers() {
+class ContentService extends ServiceExtension {
+    findAllContents() {
         try {
-            const UserModel = this.mongodb.UserModel;
-            UserModel.find(this.req.params).then((data) => {
+            const ContentModel = this.mongodb.ContentModel;
+            ContentModel.find(this.req.params).then((data) => {
                 this.res.status(200).json({'status':'OK', 'data':data});
             })
             .catch((err) => {
@@ -15,4 +15,4 @@ class UserService extends ServiceExtension {
         }
     }
 }
-module.exports = UserService;
+module.exports = ContentService;

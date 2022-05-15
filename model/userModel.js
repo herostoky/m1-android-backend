@@ -1,9 +1,25 @@
 exports.compile = (mongoose) => {
     const userSchema = mongoose.Schema(
         {
-            name: String
+            username: {
+              type: String,
+              required: true,
+            },
+            full_name: {
+              type: String,
+              required: false,
+            },
+            email: {
+              type: String,
+              required: true,
+              unique: true,
+            },
+            login_password: {
+              type: String,
+              required: true,
+            }
         },
-        { 
+        {
             collection: 'user'
         }
     );

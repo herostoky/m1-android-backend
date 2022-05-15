@@ -1,11 +1,11 @@
-const UserService  = require('../service/userService').default;
+const UserService  = require('../service/userService');
 
 exports.login = (req, res) => {
     console.log('login called');
     return null;
 }
 
-exports.findAllUser = (req, res) => {
+exports.findAllUsers = (req, res) => {
     var userSrv = new UserService(req, res);
-    userSrv.findAllUser(req, res);
+    userSrv.findAllUsers(req, res);
 }
