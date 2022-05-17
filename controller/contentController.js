@@ -7,5 +7,5 @@ exports.login = (req, res) => {
 
 exports.findAllContents = (req, res) => {
     var contentSrv = new ContentService(req, res);
-    contentSrv.findAllContents(req, res);
+    contentSrv.findAllContents();
 }

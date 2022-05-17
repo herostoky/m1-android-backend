@@ -13,5 +13,8 @@ class ServiceExtension {
         this.errors = this.errors ?? [];
         this.errors.push(error);
     }
+    isNotNull(variable) {
+        return (variable != null && variable != undefined); 
+    }
 }
 module.exports = ServiceExtension;
