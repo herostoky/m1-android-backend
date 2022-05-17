@@ -1,7 +1,7 @@
 const express    = require('express');
-const app        = express();
-const bodyParser = require('body-parser');
 const cors       = require('cors');
+const bodyParser = require('body-parser');
+const app        = express();
 
 // ========================
 // Middlewares
@@ -26,15 +26,15 @@ app.use('/content', contentRouter);
 // Routes
 // ========================
 // **** USER ****
-userRouter.get ('/find-all', userController.findAllUsers);
+userRouter.get('/find-all',  userController.findAllUsers);
 userRouter.post('/login',    userController.login);
 userRouter.post('/logout',   userController.login);
 // **** CONTENT ****
-contentRouter.get ('/find-all', contentController.findAllContents);
+contentRouter.get('/find-all', contentController.findAllContents);
 
 // ========================
 // Listen
 // ========================
 app.listen((process.env.PORT || 7500), function () {
     console.log(`listening on ${(process.env.PORT || 7500)}`)
-})
+});

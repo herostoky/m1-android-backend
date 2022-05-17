@@ -11,7 +11,7 @@ class ContentService extends ServiceExtension {
             });
         }
         catch(err) {
-            this.res.status(500).json({'status':'KO', 'error':err});
+            this.res.status(500).json({'status':'KO', 'error':err.message});
         }
     }
 }

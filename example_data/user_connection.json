@@ -1,0 +1,20 @@
+[
+    {
+        "user": {
+            "username": "herostoky",
+            "full_name": "SOLOFONIRINA Toky",
+            "email": "herostoky@gmail.com"
+        },
+        "token": "dfjgsojifvuihoIDFSDDcGhbvj",
+        "expiration_date": null
+    },
+    {
+        "user": {
+            "username": "ricka",
+            "full_name": "ALAIN Ricka",
+            "email": "rickajr@gmail.com"
+        },
+        "token": "dfjgsojifvuDfbfdEihoIGhbvm",
+        "expiration_date": null
+    }
+]
