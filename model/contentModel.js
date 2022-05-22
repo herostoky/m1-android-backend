@@ -1,7 +1,21 @@
 exports.compile = (mongoose) => {
     const conentSchema = mongoose.Schema(
         {
-            name: String
+            title: {
+                type: String,
+            },
+            picture: {
+                type: String,
+            },
+            description: {
+                type: String,
+            },
+            type: {
+                type: String,
+            },
+            url: {
+                type: String,
+            }
         },
         { 
             collection: 'content'

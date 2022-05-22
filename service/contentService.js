@@ -4,7 +4,7 @@ class ContentService extends ServiceExtension {
         try {
             const ContentModel = this.mongodb.ContentModel;
             ContentModel.find(this.req.params).then((data) => {
-                this.res.status(200).json({'status':'OK', 'data':data});
+                this.res.status(200).json({'status':'OK', 'data':{'contents' : data}});
             })
             .catch((err) => {
                 this.res.status(500).json({'status':'KO', 'error':err});
