@@ -11,8 +11,7 @@ exports.compile = (mongoose) => {
             },
             email: {
               type: String,
-              required: true,
-              unique: true,
+              required: true
             },
             login_password: {
               type: String,
